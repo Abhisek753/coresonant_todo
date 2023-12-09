@@ -1,0 +1,114 @@
+.label-start{
+    display: flex;
+    align-items: flex-start;
+}
+.ancor-tag>a{
+    text-decoration: none !important;
+    color: black;
+}
+.sidebar-list{
+    margin-bottom: 20px !important;
+    padding: 5px 20px;
+}
+.ancor-tag > a{
+    margin-left: 15px;
+}
+.component-header{
+    border-bottom: 1px solid #ddd;
+    align-items: flex-start;
+    display: flex;
+    padding: 10px 20px;
+}
+.text-left{
+    text-align: left;
+}
+.page_heading{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    margin-bottom: 50px;
+  }
+  
+  .table_header {
+      background-color: #f0f0f0;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .table_header th {
+      padding: 6px;
+      text-align: center;
+    }
+    .table_header > tr >th {
+      font-size: 12px !important;
+    }
+    .appraisal_table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    
+    /* Style for the table rows */
+    .table_body {
+      font-size: 14px;
+      color: #333;
+    }
+    
+    .appraisal_table tr {
+      border-bottom: 1px solid #ccc;
+    }
+    
+    .appraisal_table th.remarks {
+      width: 40%;
+    }
+    .table_headerfix thead tr th {
+    
+      position: sticky !important;
+      z-index: 100;
+      top: -1px;
+    }
+    .heading_padding_bottom{
+      padding-bottom: 17px;
+    }
+      
+  @-moz-document url-prefix() {   
+    table th:first-child{background: none !important; }
+    table thead th:first-child{background: #fff !important; }
+  }
+  table th:first-child{ border-bottom: 2px solid #dee2e6 !important;}
+  table{ margin-bottom: 0 !important;}
+  .table thead th{ background: #f1f1f1;}
+  .pagination{ margin-top: 20px;}
+  .page_heading ul{ margin-bottom: 0;}
+  .active {
+     color: #333, i !important;
+     font-weight: 800 !important;
+     
+  }
+  .cursor-pointer, .cursor-pointer *{
+    cursor: pointer !important;
+  }
+  .nav-link:focus, .nav-link:hover{color: #333 !important;}
+  
+  .user_Name_Heading{
+    display: flex;
+    align-items: flex-start;
+    font-size: 22px;
+    border-bottom: 1px solid #ddd;
+  
+  }
+  .user_Name_Heading span:nth-child(2) {
+    opacity: 0.7;
+    
+  }
+  .form-check-input[type=radio]{
+    border: 1px solid #b1aaaa !important;
+  }
+  .logo-sml{
+    margin: 24px 30px !important;
+    padding: 0 8px !important;
+    width:120px !important;
+  }
+  
+  
