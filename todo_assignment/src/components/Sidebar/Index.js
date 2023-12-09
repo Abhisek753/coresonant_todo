@@ -15,17 +15,14 @@ const Sidebar = () => {
           <img src={Logo} alt="Logo" style={{width:"50%"}} />
         </div>
         <div style={{ marginTop: "30px" }}>
-          <NavItem className='ancor-tag sidebar-list'>
-            <FontAwesomeIcon  icon={faTachometerAlt} /> 
-            <Link to="/dashboard">Dashboard</Link>
-          </NavItem>
+         
           <NavItem className='ancor-tag sidebar-list'>
             <FontAwesomeIcon  icon={faUsers} />
-            <Link to="/tasklist">Task List</Link>
+            <Link to="/">Task List</Link>
           </NavItem>
           <NavItem className='ancor-tag sidebar-list'>
             <FontAwesomeIcon icon={faTools} />
-            <Link>Services</Link>
+            <Link to="/service">Services</Link>
           </NavItem>
        
         </div>

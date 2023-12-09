@@ -35,10 +35,7 @@ function ResponsiveAppBar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
-  const handleLogout = () => {
-    localStorage.removeItem("key");
-    Navigate("/");
-  };
+ 
 
   return (
     <AppBar position="static" style={{ backgroundColor: "white" }}>
@@ -130,7 +127,7 @@ function ResponsiveAppBar() {
                 <Typography textAlign="center">Dashboard</Typography>
               </MenuItem>
               <MenuItem className="ancor-tag" onClick={handleCloseUserMenu}>
-                <Typography onClick={handleLogout} textAlign="center">
+                <Typography  textAlign="center">
                   Logout
                 </Typography>
               </MenuItem>

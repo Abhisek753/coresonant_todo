@@ -17,6 +17,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import styles from "./Index.module.css";
 import { useNavigate } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Index = () => {
     const navigate = useNavigate();
@@ -178,7 +179,7 @@ const Index = () => {
             </div>
             <div className="row mt-3">
                 <div
-                    className={`col-md-4 form-group cursor-pointer ${styles.select_box}`}
+                    className={`col-md-4 form-group cursor-pointer ml-2 ${styles.select_box}`}
                 >
                     <Input
                         type="select"
