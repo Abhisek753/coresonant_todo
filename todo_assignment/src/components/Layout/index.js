@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     <div style={{ display: "flex" }}>
         <div
           style={{
-            width: "15%",
+            width:  "15%",
             height: "100vh",
             borderRight: "1px solid black",
           }}
