@@ -18,7 +18,7 @@ const Sidebar = () => {
          
           <NavItem className='ancor-tag sidebar-list'>
             <FontAwesomeIcon  icon={faUsers} />
-            <Link to="/">Task List</Link>
+            <Link to="/">Task List </Link>
           </NavItem>
           <NavItem className='ancor-tag sidebar-list'>
             <FontAwesomeIcon icon={faTools} />
