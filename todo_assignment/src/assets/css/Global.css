@@ -31,7 +31,13 @@
     margin-top: 20px;
     padding: 2px 10px;
   }
-  
+  .active {
+    color: #333, i !important;
+    font-weight: 900 !important;
+    color:black;
+    
+ }
+ 
   .table_header {
       background-color: #f0f0f0;
       font-weight: bold;
