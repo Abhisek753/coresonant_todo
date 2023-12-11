@@ -12,7 +12,7 @@ const Sidebar = () => {
     <div className="sidebar" style={{ textAlign: "left" }}>
       <Nav vertical>
         <div style={{ margin: "24px 30px" }}>
-          <img src={Logo} alt="Logo" style={{width:"50%"}} />
+          <img src={Logo} alt="Logo" style={{width:"100%"}} />
         </div>
         <div style={{ marginTop: "30px" }}>
          
