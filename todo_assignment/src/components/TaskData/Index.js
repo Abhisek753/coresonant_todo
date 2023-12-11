@@ -104,9 +104,7 @@ const Index = () => {
         setError({ addError: false })
     };
 
-    const getEditSkillData = (id) => { };
 
-    //GET SKILL DATA
     const getData = async (searchQuery) => {
         gettasksListService()
             .then((response) => {
@@ -168,18 +166,13 @@ const Index = () => {
     return (
         <div>
             <div className="page_heading">
-                <div>
+               <div style={{display:"flex",width:"70%"}}>
+               <div>
                     <h4>Tasks</h4>
                 </div>
-                <div>
-                    <Button className="btn btn-primary mb-3" onClick={handleAddToggle}>
-                        Add New Task
-                    </Button>
-                </div>
-            </div>
-            <div className="row mt-3">
                 <div
-                    className={`col-md-4 form-group cursor-pointer ml-2 ${styles.select_box}`}
+                    className={`col-md-4 form-group cursor-pointer  ${styles.select_box}`}
+                    style={{marginLeft:"20px"}}
                 >
                     <Input
                         type="select"
@@ -189,10 +182,29 @@ const Index = () => {
                         <option value="completed">Completed Tasks</option>
                     </Input>
                 </div>
+               </div>
+                <div>
+                    <Button className="btn btn-primary mb-3" onClick={handleAddToggle}>
+                        Add New Task
+                    </Button>
+                </div>
+            </div>
+            <div className="row mt-3">
+                {/* <div
+                    className={`col-md-4 form-group cursor-pointer ml-2 ${styles.select_box}`}
+                >
+                    <Input
+                        type="select"
+                        onChange={(e) => setFilterOption(e.target.value)}
+                    >
+                        <option value="all">All Tasks</option>
+                        <option value="completed">Completed Tasks</option>
+                    </Input>
+                </div> */}
 
                 <div className="col-md-4"></div>
             </div>
-            <div className="mt-2">
+            <div className="mt-1">
                 <div>
                     <div className={styles.table_max_height}>
                         <Table
